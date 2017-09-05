@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Character Map</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
+	<script src="http://vuejs.org/js/vue.min.js"></script>
+</head>
+<body>
+	<div id="root">
+		<section class="section">
+			<div class="container">
+			  <h1 class="title">
+				Online Character Map
+			  </h1>
+			  <p class="subtitle">
+				Search for characters on the go!!!
+			  </p>
+			</div>
+		</section>
+		
+		
+		<div class="columns">
+			<div class="column"></div>
+			<div class="column is-two-quarters">
+				<div class="control has-icons-right">
+					<input class="input is-large" type="text" placeholder="Search" v-model="searchtext" />
+					<span class="icon is-right">
+					<i class="fa fa-search"></i>
+					</span>
+				</div>
+			</div>
+			<div class="column"></div>
+		</div>	
+		
+		<div class="container" v-if="searchtext != ''">
+			<h3>Your search results for '{{searchtext}}'</h3>
+		</div>
+		
+		<div class="container" v-for="item in filteredItems">
+			<div class="box">
+				<article class="media">
+					<div class="media-left">
+					  <figure class="image is-32x32">
+						<h1 class="title is-1">
+							{{item.code | codeToString}}
+						</h1>
+					  </figure>
+					</div>
+					<div class="media-content">
+					  <div class="content">
+						<p>
+
+							<a class="button is-primary is-small">{{item.code | codeToString}}</a>
+							<a class="button is-info is-small">Hex value: {{item.code | codeToHex}}</a>
+							<a class="button is-success is-small">Octal value: {{item.code | codeToOct}}</a>
+							<a class="button is-warning is-small">HTML Entity: {{item.code | codeToHtml}}</a>
+							<a class="button is-danger is-small">Unicode: {{item.code | codeToUnicode}}</a>
+							<a class="button is-primary is-small">JS Escaped: {{item.code | codeToJsEscaped}}</a>
+						
+							<div class="tags">
+								<span class="tag is-primary" v-for="keyword in item.keywords">
+								{{keyword}}
+								</span>
+							</div>
+
+						</p>
+					  </div>
+					</div>
+				</article>
+			</div>
+			<br/>
+		</div>
+		
+	</div>
+
+
+	<script src="main/app.js"></script>
+</body>
+</html>
