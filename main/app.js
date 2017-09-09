@@ -8,7 +8,7 @@ var demo = new Vue({
 		searchfilter: "keyword"
 	},
 	mounted: function () {
-		this.$http.get('/main/content.json')
+		this.$http.get('main/content.json')
 			.then(response => {
 
 				let tempItems = response.body;
