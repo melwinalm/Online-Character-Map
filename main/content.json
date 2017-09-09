@@ -1,0 +1,432 @@
+[
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "space",
+            "basic",
+            "latin"
+        ],
+        "code": 32
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "exclamation",
+            "mark",
+            "basic",
+            "latin",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 33
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "quotation",
+            "mark",
+            "basic",
+            "latin",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 34
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "hashtag",
+            "sharp",
+            "mark",
+            "basic",
+            "latin",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 35
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "dollar",
+            "sign",
+            "basic",
+            "latin",
+            "symbols"
+        ],
+        "code": 36
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "percent",
+            "sign",
+            "basic",
+            "latin",
+            "symbols"
+        ],
+        "code": 37
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "ampersand",
+            "basic",
+            "latin",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 38
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "apostrophe",
+            "basic",
+            "latin",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 39
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "left parenthesis",
+            "bracket",
+            "basic",
+            "latin",
+            "symbols"
+        ],
+        "code": 40
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "right parenthesis",
+            "bracket",
+            "basic",
+            "latin",
+            "symbols"
+        ],
+        "code": 41
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "asterisk",
+            "basic",
+            "latin",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 42
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "plus",
+            "sign",
+            "basic",
+            "latin",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 43
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "comma",
+            "basic",
+            "latin",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 44
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "hyphen",
+            "minus sign",
+            "basic",
+            "latin",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 45
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "full stop",
+            "basic",
+            "latin",
+            "punctuation"
+        ],
+        "code": 46
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "slash",
+            "solidus",
+            "basic",
+            "latin",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 47
+    },
+    {
+        "type": 1,
+        "title": "Numbers",
+        "keywords": [
+            "numbers",
+            "digits"
+        ],
+        "range": [
+            48,
+            57
+        ]
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "colon",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 58
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "semicolon",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 59
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "less than",
+            "sign",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 60
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "equal",
+            "sign",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 61
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "greater than",
+            "sign",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 62
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "question mark",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 63
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "at sign",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 64
+    },
+    {
+        "type": 1,
+        "title": "Basic Latin",
+        "keywords": [
+            "english",
+            "uppercase",
+            "alphabets",
+            "basic",
+            "latin",
+            "letters"
+        ],
+        "range": [
+            65,
+            90
+        ]
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "left square",
+            "bracket",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 91
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "backslash",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 92
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "right square",
+            "bracket",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 93
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "circumflex accent",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 94
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "low line",
+            "underscore",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 95
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "grave accent",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 96
+    },
+    {
+        "type": 1,
+        "title": "Basic Latin",
+        "keywords": [
+            "english",
+            "lowercase",
+            "alphabets",
+            "basic",
+            "latin",
+            "letters"
+        ],
+        "range": [
+            97,
+            122
+        ]
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "left curly",
+            "bracket",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 123
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "vertical bar",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 124
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "right curly",
+            "bracket",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 125
+    },
+    {
+        "type": 2,
+        "title": "Basic Latin",
+        "keywords": [
+            "tilde",
+            "punctuation",
+            "symbols"
+        ],
+        "code": 126
+    },
+    {
+        "type": 1,
+        "title": "Kannada",
+        "keywords": [
+            "kannada",
+            "karnataka"
+        ],
+        "range": [
+            3200,
+            3277
+        ]
+    }
+]
