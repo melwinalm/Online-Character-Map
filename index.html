@@ -10,29 +10,26 @@
 	<script src="https://unpkg.com/vue/dist/vue.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.3.4/vue-resource.min.js"></script>
 
-
 </head>
 
 <body>
 
-	<section class="hero is-primary">
-		<div class="hero-body">
-			<div class="container">
-				<h1 class="title">
-					Online Character Map
-				</h1>
-				<h2 class="subtitle">
-					Search Characters on the go!!!
-				</h2>
-			</div>
-		</div>
-	</section>
-
-	<br/>
-
-	<br/>
-
 	<div id="root">
+
+		<section class="hero is-primary">
+			<div class="hero-body">
+				<div class="container">
+					<h1 class="title">
+						Online Character Map
+					</h1>
+					<h2 class="subtitle">
+						Search Characters on the go!!!
+					</h2>
+				</div>
+			</div>
+		</section>
+
+		<br/>
 
 		<div class="columns">
 			<div class="column"></div>
@@ -63,11 +60,11 @@
 
 
 		<div class="container" v-for="item in filteredItems">
-			<div class="card tile">
+			<div class="card">
 				<div class="card-content">
 					<article class="media">
 						<figure class="media-left">
-							<span class="title is-1">{{item.code | codeToString}}</span>
+							<span class="subtitle is-1">{{item.code | codeToString}}</span>
 						</figure>
 						<div class="content">
 							<div class="tags">
@@ -77,71 +74,38 @@
 					</article>
 				</div>
 				<footer class="card-footer">
-					<a class="card-footer-item">{{item.code | codeToString}}</a>
-					<a class="card-footer-item">Hex value: {{item.code | codeToHex}}</a>
-					<a class="card-footer-item">Octal value: {{item.code | codeToOct}}</a>
-					<a class="card-footer-item">HTML Entity: {{item.code | codeToHtml}}</a>
-					<a class="card-footer-item">Unicode: {{item.code | codeToUnicode}}</a>
-					<a class="card-footer-item">JS Escaped: {{item.code | codeToJsEscaped}}</a>
+					<a class="card-footer-item" v-on:click="greet(item.code,'cts')">{{item.code | codeToString}}</a>
+					<a class="card-footer-item" v-on:click="greet(item.code,'cth')">Hex value: {{item.code | codeToHex}}</a>
+					<a class="card-footer-item" v-on:click="greet(item.code,'cto')">Octal value: {{item.code | codeToOct}}</a>
+					<a class="card-footer-item" v-on:click="greet(item.code,'cte')">HTML Entity: {{item.code | codeToHtml}}</a>
+					<a class="card-footer-item" v-on:click="greet(item.code,'ctu')">Unicode: {{item.code | codeToUnicode}}</a>
+					<a class="card-footer-item" v-on:click="greet(item.code,'ctj')">JS Escaped: {{item.code | codeToJsEscaped}}</a>
 				</footer>
 			</div>
 		</div>
 
-		<div class="container" v-for="item in filteredItems">
-			<div class="box">
-				<article class="media">
-					<div class="media-left">
-						<figure class="image is-32x32">
-							<h1 class="title is-1">
-								{{item.code | codeToString}}
-							</h1>
-						</figure>
+		<br/>
+
+		<section class="hero is-primary">
+			<div class="hero-body">
+				<div class="container">
+					<div class="content has-text-centered">
+						<p>
+							<strong>Online Character Map</strong> by <a href="https://www.github.com/melwinalm">Melwin Amith D'Almeida</a>.
+						</p>
+						<p>
+							<a class="icon" href="https://github.com/melwinalm/Online-Character-Map">
+									<i class="fa fa-github"></i>
+								</a>
+						</p>
 					</div>
-					<div class="media-content">
-						<div class="content">
-							<p>
-
-								<a class="button is-primary is-small">{{item.code | codeToString}}</a>
-								<a class="button is-info is-small">Hex value: {{item.code | codeToHex}}</a>
-								<a class="button is-success is-small">Octal value: {{item.code | codeToOct}}</a>
-								<a class="button is-warning is-small">HTML Entity: {{item.code | codeToHtml}}</a>
-								<a class="button is-danger is-small">Unicode: {{item.code | codeToUnicode}}</a>
-								<a class="button is-primary is-small">JS Escaped: {{item.code | codeToJsEscaped}}</a>
-
-								<div class="tags">
-									<span class="tag is-primary" v-for="keyword in item.keywords">
-								{{keyword}}
-								</span>
-								</div>
-
-							</p>
-						</div>
-					</div>
-				</article>
+				</div>
 			</div>
-			<br/>
-		</div>
+		</section>
 
 	</div>
 
-	<br/>
 
-	<section class="hero is-primary">
-		<div class="hero-body">
-			<div class="container">
-				<div class="content has-text-centered">
-					<p>
-						<strong>Online Character Map</strong> by <a href="https://www.github.com/melwinalm">Melwin Amith D'Almeida</a>.
-					</p>
-					<p>
-						<a class="icon" href="https://github.com/melwinalm/Online-Character-Map">
-							<i class="fa fa-github"></i>
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<script src="main/app.js"></script>
 

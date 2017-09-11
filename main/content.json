@@ -101,7 +101,8 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "left parenthesis",
+            "left",
+            "parenthesis",
             "bracket",
             "basic",
             "latin",
@@ -113,7 +114,8 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "right parenthesis",
+            "right",
+            "parenthesis",
             "bracket",
             "basic",
             "latin",
@@ -163,7 +165,8 @@
         "title": "Basic Latin",
         "keywords": [
             "hyphen",
-            "minus sign",
+            "minus", 
+            "sign",
             "basic",
             "latin",
             "punctuation",
@@ -231,7 +234,8 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "less than",
+            "less",
+            "than",
             "sign",
             "punctuation",
             "symbols"
@@ -253,7 +257,8 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "greater than",
+            "greater",
+            "than",
             "sign",
             "punctuation",
             "symbols"
@@ -264,7 +269,8 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "question mark",
+            "question",
+            "mark",
             "punctuation",
             "symbols"
         ],
@@ -274,7 +280,7 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "at sign",
+            "at",
             "punctuation",
             "symbols"
         ],
@@ -300,7 +306,8 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "left square",
+            "left",
+            "square",
             "bracket",
             "punctuation",
             "symbols"
@@ -321,7 +328,8 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "right square",
+            "right",
+            "square",
             "bracket",
             "punctuation",
             "symbols"
@@ -332,6 +340,7 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
+            "caret",
             "circumflex accent",
             "punctuation",
             "symbols"
@@ -379,7 +388,8 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "left curly",
+            "lef",
+            "curly",
             "bracket",
             "punctuation",
             "symbols"
@@ -390,7 +400,8 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "vertical bar",
+            "vertical",
+            "bar",
             "punctuation",
             "symbols"
         ],
@@ -400,7 +411,8 @@
         "type": 2,
         "title": "Basic Latin",
         "keywords": [
-            "right curly",
+            "right",
+            "curly",
             "bracket",
             "punctuation",
             "symbols"

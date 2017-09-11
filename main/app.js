@@ -49,6 +49,32 @@ var demo = new Vue({
 
 			});
 	},
+	methods: {
+		greet(code, type) {
+			let clipboardText = "";
+
+			if (type == 'cts') {
+				clipboardText = String.fromCharCode(code);
+			}
+			else if (type == 'cth') {
+				clipboardText = "0x" + code.toString(16);
+			}
+			else if (type == 'cto') {
+				clipboardText = code.toString(8);
+			}
+			else if (type == 'cte') {
+				clipboardText = "&#" + code + ";";
+			}
+			else if (type == 'ctu') {
+				clipboardText = "U+" + code.toString(16);
+			}
+			else if (type == 'ctj') {
+				clipboardText = "%u" + code.toString(16);
+			}
+
+			alert(clipboardText);
+		}
+	},
 	filters: {
 		codeToString: function (value) {
 			return String.fromCharCode(value);
@@ -70,6 +96,7 @@ var demo = new Vue({
 		}
 	},
 	computed: {
+		cache: true,
 		filteredItems() {
 
 			if (this.searchfilter == "keyword") {
