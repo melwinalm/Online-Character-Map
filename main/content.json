@@ -440,5 +440,16 @@
             3200,
             3277
         ]
+    },
+    {
+        "type": 2,
+        "title": "Indian Rupee",
+        "keywords": [
+            "rupee",
+            "india",
+            "currency",
+            "INR"
+        ],
+        "code": 8377
     }
 ]
